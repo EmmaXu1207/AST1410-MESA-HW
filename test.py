@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import mesa_reader as mr
 
-# 设置你的 MESA run 路径
-# 注意 history.data 文件在 LOGS 文件夹里
 logs1 = mr.MesaLogDir("/Users/emmaxu/Desktop/AST1410/mesa-25.12.1/HW2-1/LOGS")
 logs2 = mr.MesaLogDir("/Users/emmaxu/Desktop/AST1410/mesa-25.12.1/tutorial/LOGS")
 logs4 = mr.MesaLogDir("/Users/emmaxu/Desktop/AST1410/mesa-25.12.1/HW2-4/LOGS")
